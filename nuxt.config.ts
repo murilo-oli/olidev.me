@@ -2,7 +2,6 @@
 export default defineNuxtConfig({
   compatibilityDate: '2025-07-15',
   devtools: { enabled: true },
-
   modules: [
     '@nuxtjs/google-fonts',
     '@nuxtjs/i18n',
@@ -10,4 +9,12 @@ export default defineNuxtConfig({
     '@nuxt/icon',
     '@tresjs/nuxt',
   ],
+  googleFonts: {
+    families: {
+      Lexend: true
+    }
+  },
+  tailwindcss: {
+    cssPath: '~/assets/css/app.css'
+  }
 })

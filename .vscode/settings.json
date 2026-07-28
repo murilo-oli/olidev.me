@@ -1,8 +1,4 @@
 {
-  "editor.tabSize": 2,
-  "editor.insertSpaces": true,
-  "editor.detectIndentation": false,
-  "editor.formatOnSave": true,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": "explicit"
@@ -18,9 +14,6 @@
     "jsonc"
   ],
   "prettier.enable": false,
-  "tailwindCSS.includeLanguages": {
-    "vue": "html"
-  },
   "[vue]": {
     "editor.defaultFormatter": "dbaeumer.vscode-eslint",
     "editor.quickSuggestions": {

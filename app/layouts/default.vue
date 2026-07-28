@@ -3,8 +3,10 @@ import MainSection from '~/components/MainSection.vue';
 </script>
 
 <template>
-  <main>
+  <main class="h-screen flex flex-row items-center justify-between p-32 font-sans bg-main-black text-main-white">
     <MainSection />
-    <slot />
+    <section class="h-full w-full flex items-center justify-center bg-main-gray rounded-lg">
+      <slot />
+    </section>
   </main>
 </template>
