@@ -1,7 +1,11 @@
+<script setup lang="ts">
+import ModelHead from './ModelHead.vue';
+</script>
+
 <template>
   <section class="h-full w-full flex flex-col justify-end gap-y-2">
-    <span>HEAD HERE</span>
-    <p class="font-bold text-4xl">
+    <ModelHead />
+    <p class="font-bold text-4xl mt-4">
       Hi,
     </p>
     <p class="font-bold text-4xl">
