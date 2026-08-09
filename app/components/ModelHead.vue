@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import { Vector3, Euler } from 'three'
 
-const cameraPosition = new Vector3(-3.300759657644351, 0.4679117514674291, 4.010953567559194)
+const cameraPosition = new Vector3(-3.300759657644351, 0.4679117514674291, 4.060953567559194)
 const cameraRotation = new Euler(-0.09756933059876954, -0.6848865618000878, -0.06183857104813489, 'XYZ')
 </script>
 
@@ -17,7 +17,8 @@ const cameraRotation = new Euler(-0.09756933059876954, -0.6848865618000878, -0.0
         :position="cameraPosition"
       />
       <TresAmbientLight :intensity="1" />
-      <TresDirectionalLight :args="['white', 1]" />
+      <TresDirectionalLight :args="['#E5C07B', 1]" />
+      <TresSpotLight :args="['#98C379', 1, 100, Math.PI / 6, 0.5, 2]" />
       <Suspense>
         <ModelHeadPrimitive />
       </Suspense>

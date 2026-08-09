@@ -5,7 +5,7 @@ import ModelHead from './ModelHead.vue';
 <template>
   <section class="h-full w-full flex flex-col justify-end gap-y-2">
     <ModelHead />
-    <p class="font-bold text-4xl mt-4">
+    <p class="font-bold text-4xl mt-2">
       Hi,
     </p>
     <p class="font-bold text-4xl">

@@ -14,6 +14,7 @@ const socials: Social[] = [
       :key="idx"
       :href="social.url"
       target="_blank"
+      class="transition-transform ease-in-out hover:scale-125"
     >
       <Icon
         :name="`${social.collection}:${social.icon}`"
