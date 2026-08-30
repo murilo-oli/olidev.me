@@ -5,4 +5,10 @@ type Social = {
   style: string,
 }
 
-export type { Social }
+type Route = {
+  path: string,
+  label: string,
+  color: string
+}
+
+export type { Social, Route }

@@ -3,15 +3,19 @@ import ModelHead from './ModelHead.vue';
 </script>
 
 <template>
-  <section class="h-full w-full flex flex-col justify-end gap-y-2">
+  <section class="w-full h-96 flex flex-row items-end justify-between gap-y-2">
+    <section class="flex flex-col justify-between h-full">
+      <SocialsList class="mt-4" />
+      <div>
+        <p class="font-bold md:text-4xl mt-2 text-2xl">
+          Hi,
+        </p>
+        <p class="font-bold md:text-4xl text-2xl">
+          I'm Murilo Oliveira <i class="font-normal text-sm text-main-green">(a.k.a oli)</i>
+        </p>
+        <span class="text-main-gray font-medium md:text-xl text-lg">Building cool stuffs. See you!</span>
+      </div>
+    </section>
     <ModelHead />
-    <p class="font-bold text-4xl mt-2">
-      Hi,
-    </p>
-    <p class="font-bold text-4xl">
-      I'm Murilo Oliveira <i class="font-normal text-sm text-main-green">(a.k.a oli)</i>
-    </p>
-    <span class="text-main-gray font-medium text-xl">Building cool stuffs. See you!</span>
-    <SocialsList class="mt-4" />
   </section>
 </template>

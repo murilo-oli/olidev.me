@@ -1,6 +1,12 @@
 import type { Config } from "tailwindcss";
 
 export default <Partial<Config>>{
+  safelist: [
+    {
+      pattern: /(text|border)-main-(green|red|blue|purple|yellow|cyan)/,
+      variants: ["hover"],
+    },
+  ],
   theme: {
     extend: {
       colors: {
